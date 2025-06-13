@@ -1,1 +1,10 @@
 .env
+volumes/
+custom_ssl/
+**/*.log
+**/*.log.*
+**/*.crt
+**/*.key
+**/*.pem
+backup/
+**/*querylog*

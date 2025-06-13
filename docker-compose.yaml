@@ -29,7 +29,6 @@ services:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
       - ./ssl:/etc/nginx/ssl/selfcerts
-      - ./nginx/custom:/etc/nginx/custom
     network_mode: "container:tailscale"
 
   adguard:
