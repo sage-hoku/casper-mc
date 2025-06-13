@@ -1,0 +1,60 @@
+pageInfo:
+  title: Dashboard
+  description: casper alpha
+appConfig:
+  theme: glass
+  layout: auto
+  iconSize: medium
+sections:
+  - name: Backend
+    icon: fas fa-wrench
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_0
+        title: Nginx
+        description: Nginx Proxy Manager
+        icon: npm.png
+        url: https://nginx.casper.lan/
+        target: newtab
+        id: 0_680_nginx
+      - &ref_1
+        title: AdGuard Home
+        description: DNS Resolver
+        icon: hl-adguardhome
+        url: https://dns.casper.lan/
+        target: newtab
+        id: 1_680_adguardhome
+      - &ref_2
+        title: Tailscale
+        description: VPN management page
+        icon: hl-tailscale
+        url: https://login.tailscale.com/admin/machines
+        target: newtab
+        id: 2_680_tailscale
+      - &ref_3
+        title: Portainer
+        description: Docker Compose container management
+        icon: hl-portainer
+        url: https://portainer.casper.lan/
+        target: newtab
+        id: 3_680_portainer
+    filteredItems:
+      - *ref_0
+      - *ref_1
+      - *ref_2
+      - *ref_3
+  - name: Minecraft Servers
+    icon: hl-minecraft
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+    filteredItems: []

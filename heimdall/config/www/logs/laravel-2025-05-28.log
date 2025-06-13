@@ -1,0 +1,73 @@
+[2025-05-28 12:19:16] local.DEBUG: Process Apps dispatched  
+[2025-05-28 12:19:17] local.DEBUG: Process Apps dispatched  
+[2025-05-28 12:19:17] local.DEBUG: Update of all apps triggered!  
+[2025-05-28 12:19:17] local.DEBUG: Update of all apps finished!  
+[2025-05-28 12:19:17] local.DEBUG: Process Apps dispatched  
+[2025-05-28 12:19:52] local.DEBUG: Process Apps dispatched  
+[2025-05-28 12:20:30] local.DEBUG: Process Apps dispatched  
+[2025-05-28 12:20:35] local.DEBUG: Process Apps dispatched  
+[2025-05-28 12:20:37] local.DEBUG: Process Apps dispatched  
+[2025-05-28 12:20:58] local.DEBUG: Process Apps dispatched  
+[2025-05-28 12:20:58] local.DEBUG: Get app triggered for: cbfad988a16a9fbcc1812bc206afcc1f73dd36de  
+[2025-05-28 12:20:58] local.DEBUG: Download triggered for stdClass Object
+(
+    [appid] => cbfad988a16a9fbcc1812bc206afcc1f73dd36de
+    [name] => Nginx Proxy Manager
+    [website] => https://nginxproxymanager.jc21.com
+    [license] => MIT License
+    [description] => This project comes as a pre-built docker image that enables you to easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt.
+    [enhanced] => 1
+    [tile_background] => light
+    [icon] => nginxproxymanager.png
+    [sha] => 0b8e03a7f9a833c0e644f401ee85926b8ba86c73
+    [class] => App\SupportedApps\NginxProxyManager\NginxProxyManager
+)
+  
+[2025-05-28 12:24:57] local.DEBUG: Get app triggered for: 140902edbcc424c09736af28ab2de604c3bde936  
+[2025-05-28 12:24:57] local.DEBUG: Download triggered for stdClass Object
+(
+    [appid] => 140902edbcc424c09736af28ab2de604c3bde936
+    [name] => AdGuard Home
+    [website] => https://github.com/AdguardTeam/AdGuardHome
+    [license] => GNU General Public License v3.0 only
+    [description] => AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it'll cover ALL your home devices, and you don't need any client-side software for that.
+
+It operates as a DNS server that re-routes tracking domains to a "black hole," thus preventing your devices from connecting to those servers. It's based on software we use for our public AdGuard DNS servers -- both share a lot of common code.
+    [enhanced] => 1
+    [tile_background] => light
+    [icon] => adguardhome.png
+    [sha] => bd632258d42881048e931f18e7ecd5583d7bce52
+    [class] => App\SupportedApps\AdGuardHome\AdGuardHome
+)
+  
+[2025-05-28 12:29:38] local.DEBUG: Get app triggered for: 15f90b18166400660896d011856a88cd88d68b33  
+[2025-05-28 12:29:38] local.DEBUG: Download triggered for stdClass Object
+(
+    [appid] => 15f90b18166400660896d011856a88cd88d68b33
+    [name] => Tailscale
+    [website] => https://tailscale.com/
+    [license] => BSD 3-Clause Clear License
+    [description] => A secure network that just works
+Zero config VPN. Installs on any device in minutes, manages firewall rules for you, and works from anywhere.
+    [enhanced] => 
+    [tile_background] => light
+    [icon] => tailscale.svg
+    [sha] => 9343e6359605dcf36619c2ffe76e2e151d07bc72
+    [class] => App\SupportedApps\Tailscale\Tailscale
+)
+  
+[2025-05-28 12:30:38] local.DEBUG: Get app triggered for: 07b796b3a10eaa8b6f485ed2379187a39400b459  
+[2025-05-28 12:30:38] local.DEBUG: Download triggered for stdClass Object
+(
+    [appid] => 07b796b3a10eaa8b6f485ed2379187a39400b459
+    [name] => Portainer
+    [website] => https://portainer.io
+    [license] => zlib License
+    [description] => Portainer is a simple management solution for Docker. Easily manage your Docker hosts and Docker Swarm clusters via Portainer web user interface.
+    [enhanced] => 1
+    [tile_background] => dark
+    [icon] => portainer.svg
+    [sha] => 5c3423fa97a8bdb7703c6d9a178339ee0d0c53a4
+    [class] => App\SupportedApps\Portainer\Portainer
+)
+  

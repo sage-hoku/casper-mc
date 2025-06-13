@@ -1,0 +1,2 @@
+[11/Jun/2025:20:18:41 +0000] - 200 200 - GET https dashboard.casper.lan "/" [Client 100.71.28.35] [Length 2405] [Gzip 4.78] [Sent-to 192.168.0.11] "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" "-"
+[12/Jun/2025:04:04:57 +0000] - 200 200 - GET https dashboard.casper.lan "/" [Client 100.71.28.35] [Length 2405] [Gzip 4.78] [Sent-to 192.168.0.11] "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" "-"
