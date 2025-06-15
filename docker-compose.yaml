@@ -9,7 +9,7 @@ services:
       - TS_STATE_DIR=/var/lib/tailscale
       - TS_USERSPACE=false
     volumes:
-      - ./tailscale/state:/var/lib/tailscale
+      - ./apps/tailscale/state:/var/lib/tailscale
     devices:
       - /dev/net/tun:/dev/net/tun
     cap_add:
@@ -27,8 +27,8 @@ services:
     restart: unless-stopped
     volumes:
       - ./data:/data
-      - ./letsencrypt:/etc/letsencrypt
-      - ./ssl:/etc/nginx/ssl/selfcerts
+      - ./apps/nginx/letsencrypt:/etc/letsencrypt
+      - ./ssl:/etc/nginx/ssl/selfcerts:ro
     network_mode: "container:tailscale"
 
   adguard:
@@ -38,8 +38,8 @@ services:
       - tailscale
     network_mode: "container:tailscale"
     volumes:
-      - ./adguard:/opt/adguardhome/work
-      - ./adguard/conf:/opt/adguardhome/conf
+      - ./apps/adguard:/opt/adguardhome/work
+      - ./apps/adguard/conf:/opt/adguardhome/conf
       - ./ssl:/opt/adguardhome/certs:ro
     restart: unless-stopped
 
@@ -72,7 +72,7 @@ services:
       - PGID=1000
       - TZ=HST
     volumes:
-      - ./heimdall/config:/config
+      - ./apps/heimdall/config:/config
     ports:
       - 80:80
       - 443:443
@@ -91,7 +91,7 @@ services:
       TYPE: PAPER
     volumes:
       - minecraft_lsv:/data
-      - /var/lib/minecraft/lsv/plugins:/plugins
+      - ./minecraft/vanilla/plugins:/plugins
     depends_on:
       - tailscale
     restart: unless-stopped  
