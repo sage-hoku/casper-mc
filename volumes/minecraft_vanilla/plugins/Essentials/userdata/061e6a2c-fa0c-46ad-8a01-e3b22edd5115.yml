@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.0.100
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750320938702
+  login: 1750320631588
+money: '0'
+last-account-name: xenoBeans
+logoutlocation:
+  world: 68e352c4-1bae-4e00-bdff-7f3add3b50d5
+  world-name: paraiso
+  x: -8.698964962655914
+  y: 70.0
+  z: 34.21858694218707
+  yaw: -88.6473388671875
+  pitch: -1.800113320350647
+lastlocation:
+  world: 68e352c4-1bae-4e00-bdff-7f3add3b50d5
+  world-name: paraiso
+  x: -0.5267735565873478
+  y: 74.04114060004581
+  z: 7.4311675206080565
+  yaw: -73.34955596923828
+  pitch: 32.09999465942383
