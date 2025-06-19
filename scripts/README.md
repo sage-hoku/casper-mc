@@ -1,0 +1,1 @@
+WSL Sucks, run these commands with $ bash filename.sh

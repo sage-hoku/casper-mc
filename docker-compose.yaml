@@ -90,7 +90,7 @@ services:
       EULA: "TRUE"
       TYPE: PAPER
     volumes:
-      - minecraft_lsv:/data
+      - minecraft_vanilla:/data
       - ./minecraft/vanilla/plugins:/plugins
     depends_on:
       - tailscale
@@ -137,7 +137,7 @@ networks:
           gateway: 192.168.0.1
 
 volumes:
-  minecraft_lsv:
+  minecraft_vanilla:
     external: true
   minecraft_modded_1:
     external: true

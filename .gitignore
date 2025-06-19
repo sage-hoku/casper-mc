@@ -1,10 +1,23 @@
-.env
-volumes/
+*.env
+
+backup/
 custom_ssl/
+**/*.serverpath
 **/*.log
 **/*.log.*
 **/*.crt
 **/*.key
 **/*.pem
-backup/
 **/*querylog*
+
+# logs and other instance-specific data
+minecraft/*/plugins/
+apps/adguard/data/
+apps/tailscale/state/
+data/database/
+apps/heimdall/config/log/
+
+# minecraft server volumes
+volumes/
+!volumes/*/*.yml
+!volumes/*/*.properties
