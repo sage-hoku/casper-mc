@@ -18,6 +18,6 @@ data/database/
 apps/heimdall/config/log/
 
 # minecraft server volumes
-volumes/
-!volumes/*/*.yml
-!volumes/*/*.properties
+volumes/**
+!volumes/**/*.yml
+!volumes/**/*.properties
